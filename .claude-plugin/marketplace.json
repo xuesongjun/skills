@@ -1,0 +1,47 @@
+{
+  "name": "skills",
+  "owner": {
+    "name": "xuesongjun",
+    "email": "xuesongjun@example.com"
+  },
+  "metadata": {
+    "description": "Personal development skills for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "dev-workflow",
+      "description": "Development workflow skills: commit, save/sync progress, run application",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/commit",
+        "./skills/save-progress",
+        "./skills/sync-context",
+        "./skills/run"
+      ]
+    },
+    {
+      "name": "test-studio",
+      "description": "Test Studio project specific skills: fix-bug, add-page, add-reg-group",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/fix-bug",
+        "./skills/add-page",
+        "./skills/add-reg-group"
+      ]
+    },
+    {
+      "name": "code-quality",
+      "description": "Code quality skills: architecture, refactoring, testing",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/clean-code-architect",
+        "./skills/quick-refactor",
+        "./skills/test-master"
+      ]
+    }
+  ]
+}
