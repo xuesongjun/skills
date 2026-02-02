@@ -64,5 +64,10 @@ my_skills/
 ```
 
 ## 参考
+- [Agent Skills ](https://agentskills.io/home)
 
 - [Agent Skills Specification](https://agentskills.io/specification)
+
+- [skills](https://github.com/anthropics/skills)
+
+- [Agent Skills](https://github.com/agentskills/agentskills)
